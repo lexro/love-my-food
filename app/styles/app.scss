@@ -1,0 +1,9 @@
+@import 'normalize';
+@import 'variables';
+
+* {
+  color: $text-color;
+  font-family: 'Roboto', sans-serif;
+}
+
+@import 'index';
