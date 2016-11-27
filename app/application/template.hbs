@@ -2,10 +2,10 @@
   <span class="title">LoveMyFood</span>
   <div class="search">
     <div class="search__input-container">
-      {{input placeholder="Enter Food" class="search__input"}}
-      {{input placeholder="Location" class="search__input"}}
+      {{input type="text" value=query placeholder="Enter Food" class="search__input"}}
+      {{input type="text" value=location placeholder="Location" class="search__input"}}
     </div>
-    <button class="search__button">Go</button>
+    {{#link-to "search" (query-params query=query location=location)}}<button class="search__button">Go</button>{{/link-to}}
   </div>
 </header>
 
