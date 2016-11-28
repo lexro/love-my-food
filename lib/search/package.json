@@ -6,6 +6,7 @@
   ],
   "dependencies": {
     "ember-cli-htmlbars": "*",
-    "ember-cli-sass": "*"
+    "ember-cli-sass": "*",
+    "ember-truth-helpers": "*"
   }
 }

@@ -1,7 +1,10 @@
+.result-filter {
+  display: flex;
+}
+
 .results {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 0;
 }
 

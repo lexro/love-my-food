@@ -1,0 +1,6 @@
+<select onchange={{action "filterByCuisine" value="target.value"}}>
+  <option value="" selected>Cuisine Filter</option>
+  {{#each cuisineTypes as |type|}}
+    <option value={{type.name}} selected={{eq cuisineFilter type}}>{{type.name}}</option>
+  {{/each}}
+</select>
