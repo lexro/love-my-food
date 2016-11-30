@@ -1,6 +1,18 @@
-<select onchange={{action "filterByCuisine" value="target.value"}}>
+<select class="result-filter__select" onchange={{action "filterByCuisine" value="target.value"}}>
   <option value="" selected>Cuisine Filter</option>
   {{#each cuisineTypes as |type|}}
     <option value={{type.name}} selected={{eq cuisineFilter type}}>{{type.name}}</option>
   {{/each}}
+</select>
+
+<select class="result-filter__select" onchange={{action "filterByPrice" value="target.value"}}>
+  <option value="" selected>Price Filter</option>
+  {{#each priceTypes as |type|}}
+    <option value={{type.name}} selected={{eq priceFilter type}}>{{type}}</option>
+  {{/each}}
+</select>
+
+<select class="result-filter__select" onchange={{action "filterByOpen" value="target.value"}}>
+  <option value="" selected>Open Now Filter</option>
+  <option value="Open Now">Open Now</option>
 </select>
