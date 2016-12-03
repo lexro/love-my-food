@@ -25,9 +25,8 @@ $profile-border: 1px solid #e6e6e6;;
   }
 
   &__image {
-    flex: 0;
+    flex: 0 0 75px;
     height: 75px;
-    width: 75px;
   }
 
   &__name {
