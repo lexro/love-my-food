@@ -47,7 +47,8 @@
   },
   "ember-addon": {
     "paths": [
-      "lib/search"
+      "lib/search",
+      "lib/reviews"
     ]
   }
 }
