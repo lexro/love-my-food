@@ -18,6 +18,12 @@ $profile-border: 1px solid #e6e6e6;;
   display: flex;
   padding: 16px 0;
 
+  &__rating {
+    color: white;
+    padding: 5px;
+    width: 24px;
+  }
+
   &__image {
     flex: 0;
     height: 75px;
