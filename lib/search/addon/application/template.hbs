@@ -3,8 +3,8 @@
   filterByPrice="filterByPrice"
   filterByOpen="filterByOpen"}}
 
-<ol class="results">
-  {{#each model.places as |place|}}
-    <li>{{profile-tile model=place.venue class="place"}}</li>
+<ul class="results">
+  {{#each model.places as |place index|}}
+    <li>{{profile-tile model=place.venue index=index class="place"}}</li>
   {{/each}}
-</ol>
+</ul>

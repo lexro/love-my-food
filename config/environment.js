@@ -19,7 +19,8 @@ module.exports = function(environment) {
     },
 
     googleFonts: [
-      'Roboto:300'
+      'Roboto:300',
+      'Roboto:700'
     ],
 
     // Set or update content security policies

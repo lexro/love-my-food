@@ -1,10 +1,13 @@
+<img class="profile-tile__image" src={{profileImg}}>
 <ul class="profile-tile__info">
-  <img src={{profileImg}}>
-  <li>{{name}}</li>
-  <li>{{cuisineType}}</li>
+  <li class="profile-tile__name">{{displayIndex}}{{name}}</li>
+  <li class="profile-tile__rating">{{rating}}</li>
   <li>{{address}}</li>
-  <li>{{rating}}</li>
-  <li>{{price}}</li>
+  <li>{{cuisineType}}</li>
   <li>{{hours}}</li>
+</ul>
+
+<ul class="profile-tile__secondary-info">
+  <li>{{price}}</li>
 </ul>
 
