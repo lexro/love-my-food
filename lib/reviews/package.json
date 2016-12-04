@@ -5,6 +5,8 @@
     "ember-engine"
   ],
   "dependencies": {
-    "ember-cli-htmlbars": "*"
+    "ember-cli-htmlbars": "*",
+    "ember-cli-sass": "*",
+    "ember-moment": "*"
   }
 }

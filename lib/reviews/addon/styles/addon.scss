@@ -1,9 +1,4 @@
-.result-filter {
-  display: flex;
-  flex-direction: column;
-}
-
-.results {
+.reviews {
   display: flex;
   flex-direction: column;
   list-style-type: none;
@@ -14,16 +9,10 @@
 // TODO: share this variable globally
 $profile-border: 1px solid #e6e6e6;
 
-.profile-tile {
+.review-tile {
   border-bottom: $profile-border;
   display: flex;
   padding: 16px 0;
-
-  &__rating {
-    color: white;
-    padding: 5px;
-    width: 24px;
-  }
 
   &__image {
     flex: 0 0 75px;
@@ -40,9 +29,12 @@ $profile-border: 1px solid #e6e6e6;
     padding: 0;
   }
 
-  &__secondary-info {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  &__likes,
+  &__date {
+    font-size: 12px
+  }
+
+  &__review-text {
+    margin: 5px 0;
   }
 }
