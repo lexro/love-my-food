@@ -12,7 +12,9 @@
 }
 
 .search {
+  align-items: center;
   display: flex;
+  margin: 10px 0;
 
   &__input-container {
     display: flex;
@@ -26,10 +28,14 @@
   }
 
   &__button {
+    background: $secondary-color;
     border: 1px solid black;
     color: white;
     height: 50px;
+    line-height: 50px;
     margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
     width: 50px;
   }
 }

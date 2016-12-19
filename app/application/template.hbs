@@ -5,7 +5,8 @@
       {{input type="text" value=query placeholder="Enter Food" class="search__input"}}
       {{input type="text" value=location placeholder="Location" class="search__input"}}
     </div>
-    {{#link-to "search" (query-params query=query location=location)}}<button class="search__button">Go</button>{{/link-to}}
+    {{#link-to "search" (query-params query=query location=location)
+      class="search__button"}}Go{{/link-to}}
   </div>
 </header>
 
