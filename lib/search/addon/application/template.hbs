@@ -1,4 +1,4 @@
-{{result-filter
+ {{result-filter
   filterByCuisine="filterByCuisine"
   filterByPrice="filterByPrice"
   filterByOpen="filterByOpen"}}
@@ -6,7 +6,7 @@
 <ul class="results">
   {{#each model.places as |place index|}}
     {{#link-to-external 'reviews' place.venue.id}}
-      <li>{{profile-tile model=place.venue index=index class="place"}}</li>
+      <li>{{profile-tile model=place.venue index=index class="place" tab-index=0}}</li>
     {{/link-to-external}}
   {{/each}}
 </ul>
