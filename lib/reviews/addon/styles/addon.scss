@@ -38,3 +38,26 @@ $profile-border: 1px solid #e6e6e6;
     margin: 5px 0;
   }
 }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.review-label {
+  display: block;
+}
+
+.input-area {
+  margin: 10px 0;
+}
+
+#review-area {
+  height: 200px;
+  overflow: auto;
+  resize: none;
+  width: 300px;
+  border: 1px solid black;
+}
+

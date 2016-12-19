@@ -1,3 +1,19 @@
+<div class="form-container">
+  <form>
+    <div class="input-area">
+      <label class="review-label" for="rating">Rating:</label>
+      <input type="number" id="rating" name="rating" />
+    </div>
+    <div class="input-area">
+      <label class="review-label" for="review-area">Review:</label>
+      <textarea id="review-area" name="review-area" placeholder="Please write your review here."></textarea>
+    </div>
+    <div class="input-area">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</div>
+
 <ul class="reviews">
   {{#each model.reviews as |review|}}
     <li>{{review-tile model=review class="review"}}</li>
