@@ -1,7 +1,7 @@
 # Love-my-food
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a restaurant reviewer application that focuses on accessibility. It is built using
+Ember and Ember engines.
 
 ## Prerequisites
 
@@ -15,8 +15,8 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd love-my-food`
+* `git clone https://github.com/lexro/lovemyfood.git` this repository
+* `cd lovemyfood`
 * `npm install`
 * `bower install`
 
