@@ -5,7 +5,7 @@
   <form>
     <div class="input-area">
       <label class="review-label" for="rating">Rating:</label>
-      <select type="number" id="rating" name="rating">
+      <select type="number" id="rating" name="rating" onchange={{action (mut rating) value="target.value"}}>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -15,16 +15,16 @@
     </div>
     <div class="input-area">
       <label class="review-label" for="review-area">Review:</label>
-      <textarea id="review-area" name="review-area" placeholder="Please write your review here."></textarea>
+      <textarea onchange={{action (mut reviewText) value="target.value"}} id="review-area" name="review-area" placeholder="Please write your review here."></textarea>
     </div>
     <div class="input-area">
-      <button type="submit">Submit</button>
+      <button type="submit" {{action 'submitReview'}}>Submit</button>
     </div>
   </form>
 </div>
 
 <ul class="reviews">
-  {{#each model.reviews as |review|}}
+  {{#each reviews as |review|}}
     <li>{{review-tile model=review class="review"}}</li>
   {{/each}}
 </ul>
