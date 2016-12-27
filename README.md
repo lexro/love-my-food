@@ -26,7 +26,7 @@ For serving with unminified files (development mode):
   * `ember serve`
   
 For serving with minified files(check dist/assets)
-  * `ember server --prod`
+  * `ember serve --prod`
      
 Visit the app at [http://localhost:4200](http://localhost:4200).
 
