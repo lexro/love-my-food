@@ -22,11 +22,13 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-For developing with unminified files:
+For serving with unminified files (development mode):
   * `ember serve`
   
-For developing with minified files(check dist/assets)
-  * Visit your app at [http://localhost:4200](http://localhost:4200).
+For serving with minified files(check dist/assets)
+  * ember server --prod
+     
+Visit the app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
 
