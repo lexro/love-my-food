@@ -4,6 +4,8 @@
 <div class="form-container">
   <form>
     <div class="input-area">
+      <label class="review-label" for="name-input">Your Name</label>
+      <input type="text" id="name-input" placeholder="Enter your name" onchange={{action (mut username) value="target.value"}} />
       <label class="review-label" for="rating">Rating:</label>
       <select type="number" id="rating" name="rating" onchange={{action (mut rating) value="target.value"}}>
         <option value="1">1</option>
