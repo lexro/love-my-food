@@ -22,8 +22,10 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+For developing with unminified files:
+  * `ember serve`
+For developing with minified files(check dist/assets)
+  * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
 
@@ -36,8 +38,10 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Building
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+Regular development build with unminified files:
+  * `ember build` (development)
+To build with minification (you can check dist/assets for the minified files)
+  * `ember build --environment production` (production)
 
 ### Deploying
 
