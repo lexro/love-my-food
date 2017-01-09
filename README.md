@@ -15,7 +15,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone https://github.com/lexro/lovemyfood.git` this repository
+* `git clone https://github.com/lexlacson/lovemyfood.git` this repository
 * `cd lovemyfood`
 * `npm install`
 * `bower install`
