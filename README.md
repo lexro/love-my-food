@@ -15,15 +15,20 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone https://github.com/lexro/lovemyfood.git` this repository
+* `git clone this repository`
 * `cd lovemyfood`
 * `npm install`
 * `bower install`
 
 ## Running / Development
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+For serving with unminified files (development mode):
+  * `ember serve`
+  
+For serving with minified files(check dist/assets)
+  * `ember serve --prod`
+     
+Visit the app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
 
@@ -36,8 +41,11 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Building
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+Regular development build with unminified files:
+  * `ember build` (development)
+  
+To build with minification (you can check dist/assets for the minified files)
+  * `ember build --environment production` (production)
 
 ### Deploying
 
